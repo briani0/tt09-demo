@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This is passing data through the registers
 
 ## How to test
 
-Explain how to use your project
+Best way would to probably connect other parts to it. Trying to fix its failures 
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+I didn't use any hardware
