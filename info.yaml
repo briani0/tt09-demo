@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "abc"      # Project title
+  title:        "Registers for submission"      # Project title
   author:       "Brian"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Test"      # One line description of what your project does
+  description:  "My project contains the a, b, and instruction register for the 8-bit design"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -11,7 +11,7 @@ project:
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_briani0_test_register"
+  top_module:  "tt_um_registers"
 
   # List your project's source files here.
   # Source files must be in ./src and you must list each source file separately, one per line.
