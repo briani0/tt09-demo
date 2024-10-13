@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "abc"      # Project title
+  title:        "Registers for submission"      # Project title
   author:       "Brian"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Test"      # One line description of what your project does
+  description:  "My project contains the a, b, and instruction register for the 8-bit design"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -11,7 +11,7 @@ project:
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_briani0_test_register"
+  top_module:  "tt_um_registers"
 
   # List your project's source files here.
   # Source files must be in ./src and you must list each source file separately, one per line.
@@ -25,24 +25,24 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "first input bit"
+  ui[1]: "second input bit"
+  ui[2]: "third input bit"
+  ui[3]: "fourth input bit"
+  ui[4]: "fifth input bit"
+  ui[5]: "sixth input bit"
+  ui[6]: "seventh input bit"
+  ui[7]: "eighth input bit"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "first output bit from bus"
+  uo[1]: " second output bit from bus"
+  uo[2]: "third output bit from bus"
+  uo[3]: "fourth output bit from bus"
+  uo[4]: "fifth output bit from bus"
+  uo[5]: "sixth output bit from bus"
+  uo[6]: "seventh output bit from bus"
+  uo[7]: "eighth output bit from bus"
 
   # Bidirectional pins
   uio[0]: ""
