@@ -57,8 +57,6 @@ module tt_um_registers (
         .rst_n(rst_n)            // Reset signal
     );
 
-    // Combine outputs from the three registers
-    assign uo_out = data_a_out | data_b_out | instruction_out;
 
     // Set uio_out and uio_oe as 0 (unused)
     assign uio_out = 8'b0;
