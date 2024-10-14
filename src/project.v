@@ -60,7 +60,7 @@ module tt_um_registers (
     // Combine outputs from the three registers
     assign uo_out = data_a_out | data_b_out | instruction_out;
 
-    // Set uio_out and uio_oe as 0 (if not used)
+    // Set uio_out and uio_oe as 0 (unused)
     assign uio_out = 8'b0;
     assign uio_oe = 8'b0;
 
